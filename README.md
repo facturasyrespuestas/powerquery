@@ -1,4 +1,4 @@
-# powerquery
+# Consultas en PowerQuery para leer Facturas Electrónicas
 
 Fragmentos de código en lenguaje M de PowerQuery para consultar documentos electrónicos DIAN-XML desde Excel o Power BI
 
@@ -8,12 +8,11 @@ Si tiene dudas sobre facturación electrónica, sobre el uso de estos scripts o 
 
 También está invitado a participar en la construcción de este repositorio. Síentase en libertad de escribir a través de la funcionalidad de Issues o Mensajes directos.
 
-Le invitamos a unirse a nuestra Comunidad en Whatsapp en el siguiente enlace: 
+Le invitamos a unirse a nuestra Comunidad en Whatsapp en el siguiente enlace: Abre este enlace para unirte a mi grupo de WhatsApp: https://chat.whatsapp.com/GrZbmIPdgjF3Trl14CX6oL
 
 ## Requisitos
 
-- Debe contar con una versión de Excel que incluya Power Query o power Bi Desktop. Las instruciones en esta página aplican para Excel, pero el procedimiento en Power BI es 
-muy similar.
+- Debe contar con una versión de Excel que incluya Power Query o power Bi Desktop. Las instruciones en esta página aplican para Excel, pero el procedimiento en Power BI es muy similar.
 
 - Previamente debe tener descargadas en formato XML las facturas desde el portal de la DIAN o desde su correo y extraidas de los archivos ZIP. Por ahora el script no puede leer archivos ZIP.
 
@@ -35,7 +34,7 @@ En la pestaña **Inicio** , seleccione el botón **Editor avanzado**
 
 ![Inicio - Editor Avanzado](img/editor_avanzado.png)
 
-Se abrirá el editor del Lenguaje M de PowerQuery, copie el contenido del archivo [ImportarCarpetaFE.m] en este repositorio y péguelo en el editor de código.
+Se abrirá el editor del Lenguaje M de PowerQuery, copie el contenido del archivo [ImportarCarpetaFE.m](ImportarCarpetaFE.m) en este repositorio y péguelo en el editor de código.
 
 Asegúrese de cambiar el valor de la variable **RutaFacturas** por la ruta de la carpeta donde tiene descargadas las facturas en XML
 
@@ -73,7 +72,7 @@ La lista de resultados contiene la palabra `Error` en todas las celdas
 documentos electrónicos en formato XML-DIAN.
 
 Si tiene un problema diferente, puede formularlo en nuestro portal https://facturasyrespuestas.com o 
-en nuestro grupo de Whatsapp 
+en nuestro grupo de Whatsapp https://chat.whatsapp.com/GrZbmIPdgjF3Trl14CX6oL
 
 ## Autores
 
